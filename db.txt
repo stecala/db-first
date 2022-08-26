@@ -1,0 +1,20 @@
+Nome tabella: auto_usate
+
+id - intero - SMALLINT - PRIMARY_KEY - AUTO_INCREMENT
+numero_telaio - VARCHAR(20) - NOTNULL - UNIQUE
+anno - data - YEAR - NOTNULL
+marca - stringa - VARCHAR(30) - NOTNULL
+modello - stringa - VARCHAR(40) - NOTNULL
+carrozzeria - stringa - VARCHAR(11) - NULL
+cambio - stringa - VARCHAR(30) - NULL
+euro - intero - SMALLINT - NOTNULL
+km - intero - MEDIUMINT - NOTNULL
+carburante - stringa - VARCHAR(10) - NOTNULL
+neopatentati - boolean - TINYINT - NOTNULL - DEFAULT(0)
+porte - intero - TINYINT - NULL
+condizioni - stringa - TEXT - NOTNULL
+trazione - stringa - VARCHAR(15)  - NULL
+cilindrata - intero - SMALLINT - NOTNULL
+consumo_medio - stringa - VARCHAR(15) - NOTNULL 
+prezzo_acquisto - float - FLOAT(9,2) - NOTNULL
+prezzo_vendita - float - FLOAT(9,2) - NOTNULL
